@@ -1,6 +1,6 @@
 app-id: com.github.LongSoft.UEFITool
 runtime: org.kde.Platform
-runtime-version: "6.3"
+runtime-version: '6.3'
 sdk: org.kde.Sdk
 rename-desktop-file: uefitool.desktop
 rename-icon: uefitool
@@ -24,9 +24,9 @@ modules:
       - cp build/UEFITool/UEFITool ${FLATPAK_DEST}/bin/uefitool
     sources:
       - type: archive
-        url: https://api.github.com/repos/LongSoft/UEFITool/tarball/A61
+        url: https://api.github.com/repos/LongSoft/UEFITool/tarball/A62
         dest-filename: UEFITool.tar.gz
-        sha256: 10c5271fcc4bd6dabae661d794d355a54f9e1952e9cbaf2081d4446017ed5c1b
+        sha256: df0128f1e270fffa46184ff9f28cd8ee212be2fe9530193c18f02ccd3658c56c
         x-checker-data:
           type: json
           url: https://api.github.com/repos/LongSoft/UEFITool/releases/latest
