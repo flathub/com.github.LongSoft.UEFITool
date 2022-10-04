@@ -18,7 +18,7 @@ modules:
       - mkdir -p ${FLATPAK_DEST}/{bin,share/{applications,appdata,icons/hicolor/512x512/apps}}
       - cp UEFITool/icons/uefitool_512x512.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/uefitool.png
       - cp UEFITool/uefitool.desktop ${FLATPAK_DEST}/share/applications
-      - cp appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml
+      - cp appstream/appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml
       - cp build/UEFIExtract/UEFIExtract ${FLATPAK_DEST}/bin/uefiextract
       - cp build/UEFIFind/UEFIFind ${FLATPAK_DEST}/bin/uefifind
       - cp build/UEFITool/UEFITool ${FLATPAK_DEST}/bin/uefitool
@@ -33,6 +33,3 @@ modules:
           url-query: .tarball_url
           version-query: .tag_name
           is-main-source: true
-      - type: file
-        url: https://raw.githubusercontent.com/LongSoft/UEFITool/new_engine/appstream/appdata.xml
-        sha256: b31dc3ad96e3119564464d1900e041f6693a3c0468c46ffd32a1a19a01f7a93a
