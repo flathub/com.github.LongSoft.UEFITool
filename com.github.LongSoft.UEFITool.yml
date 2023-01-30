@@ -24,9 +24,9 @@ modules:
       - cp build/UEFITool/UEFITool ${FLATPAK_DEST}/bin/uefitool
     sources:
       - type: archive
-        url: https://api.github.com/repos/LongSoft/UEFITool/tarball/A62
+        url: https://api.github.com/repos/LongSoft/UEFITool/tarball/A63
         dest-filename: UEFITool.tar.gz
-        sha256: df0128f1e270fffa46184ff9f28cd8ee212be2fe9530193c18f02ccd3658c56c
+        sha256: ba80057163906ac2adb352ff3a065518cee5f6497409685a5365d91648206bc9
         x-checker-data:
           type: json
           url: https://api.github.com/repos/LongSoft/UEFITool/releases/latest
