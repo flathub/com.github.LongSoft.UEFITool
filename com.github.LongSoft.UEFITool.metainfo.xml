@@ -13,11 +13,12 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="A65" date="2023-02-25" />
+    <release date="2023-02-25" version="A65"/>
   </releases>
   <url type="homepage">https://github.com/LongSoft/UEFITool</url>
+  <url type="bugtracker">https://github.com/LongSoft/UEFITool/issues</url>
   <developer_name>LongSoft</developer_name>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>BSD-2-Clause</project_license>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
 </component>
