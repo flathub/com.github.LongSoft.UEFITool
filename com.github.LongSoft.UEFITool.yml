@@ -12,16 +12,7 @@ finish-args:
   - --device=dri
 modules:
   - name: UEFITool
-    buildsystem: simple
-    build-commands:
-      - ./unixbuild.sh
-      - mkdir -p ${FLATPAK_DEST}/{bin,share/{applications,appdata,icons/hicolor/512x512/apps}}
-      - cp UEFITool/icons/uefitool_512x512.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/uefitool.png
-      - cp UEFITool/uefitool.desktop ${FLATPAK_DEST}/share/applications
-      - cp appstream/appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml
-      - cp build/UEFIExtract/UEFIExtract ${FLATPAK_DEST}/bin/uefiextract
-      - cp build/UEFIFind/UEFIFind ${FLATPAK_DEST}/bin/uefifind
-      - cp build/UEFITool/UEFITool ${FLATPAK_DEST}/bin/uefitool
+    buildsystem: cmake
     sources:
       - type: git
         url: https://github.com/LongSoft/UEFITool
@@ -31,3 +22,11 @@ modules:
           type: git
           tag-pattern: (^A\d+$)
           is-main-source: true
+  - name: appdata
+    buildsystem: simple
+    build-commands:
+      - mkdir -p /app/share/metainfo
+      - mv ${FLATPAK_ID}.appdata.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
+    sources:
+      - type: file
+        path: com.github.LongSoft.UEFITool.appdata.xml
