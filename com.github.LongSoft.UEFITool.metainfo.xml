@@ -13,6 +13,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="A69" date="2025-02-23">
+      <description></description>
+    </release>
     <release version="A68" date="2023-11-04"/>
     <release version="A67" date="2023-06-20"/>
     <release version="A66" date="2023-04-24"/>
