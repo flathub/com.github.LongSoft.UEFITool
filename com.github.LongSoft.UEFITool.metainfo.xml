@@ -13,8 +13,11 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="A71" date="2025-04-28">
+    <release version="A72" date="2025-06-16">
       <description></description>
+    </release>
+    <release version="A71" date="2025-04-28">
+      <description/>
     </release>
     <release version="A70" date="2025-03-13">
       <description/>
