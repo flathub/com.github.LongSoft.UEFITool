@@ -1,45 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>com.github.LongSoft.UEFITool</id>
-  <launchable type="desktop-id">com.github.LongSoft.UEFITool.desktop</launchable>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>BSD-2-Clause</project_license>
   <name>UEFITool</name>
   <summary>UEFI firmware image viewer and editor</summary>
   <description>
-    <p>UEFITool is a cross-platform open source application, that parses UEFI PI-compatible firmware image into a tree structure, verifies image integrity and provides a GUI to manipulate image elements.</p>
+    <p>UEFITool is a cross-platform open source application, that parses UEFI PI-compatible
+      firmware image into a tree structure, verifies image integrity and provides a GUI to manipulate image elements.</p>
   </description>
+  <url type="homepage">https://github.com/LongSoft/UEFITool</url>
+  <url type="bugtracker">https://github.com/LongSoft/UEFITool/issues</url>
+  <url type="vcs-browser">https://github.com/LongSoft/UEFITool</url>
+  <launchable type="desktop-id">com.github.LongSoft.UEFITool.desktop</launchable>
+  <developer_name>LongSoft</developer_name>
+  <content_rating type="oars-1.1"/>
   <screenshots>
     <screenshot type="default">
       <image type="source">https://github.com/LongSoft/UEFITool/raw/new_engine/appstream/UEFITool.png</image>
     </screenshot>
   </screenshots>
   <releases>
-    <release version="A74" date="2026-04-16">
-      <description></description>
-    </release>
-    <release version="A73" date="2026-01-26">
-      <description/>
-    </release>
-    <release version="A72" date="2025-06-16">
-      <description/>
-    </release>
-    <release version="A71" date="2025-04-28">
-      <description/>
-    </release>
-    <release version="A70" date="2025-03-13">
-      <description/>
-    </release>
-    <release version="A69" date="2025-02-24">
-      <description/>
-    </release>
+    <release version="A74" date="2026-04-16"/>
+    <release version="A73" date="2026-01-26"/>
+    <release version="A72" date="2025-06-16"/>
+    <release version="A71" date="2025-04-28"/>
+    <release version="A70" date="2025-03-13"/>
+    <release version="A69" date="2025-02-24"/>
     <release version="A68" date="2023-11-04"/>
     <release version="A67" date="2023-06-20"/>
     <release version="A66" date="2023-04-24"/>
-    <release date="2023-02-25" version="A65"/>
+    <release version="A65" date="2023-02-25"/>
   </releases>
-  <url type="homepage">https://github.com/LongSoft/UEFITool</url>
-  <url type="bugtracker">https://github.com/LongSoft/UEFITool/issues</url>
-  <developer_name>LongSoft</developer_name>
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>BSD-2-Clause</project_license>
-  <content_rating type="oars-1.1"/>
 </component>
