@@ -18,8 +18,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/LongSoft/UEFITool
-        tag: A74
-        commit: 6857133378d0efac485fb20159b80e0ca9eeb392
+        tag: A75
+        commit: 19a4dab71f1f994cc2a26b6808e0249e0098c366
         x-checker-data:
           type: git
           tag-pattern: (^A\d+$)
